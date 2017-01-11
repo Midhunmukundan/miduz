@@ -681,7 +681,8 @@ margin-bottom: 5px;
 
 #twitter-carousel {
   position: relative;
-  z-index: 15
+  z-index: 15;
+  padding-bottom: 25px;
 }
 #twitter-carousel .img-responsive {
 	margin: 0 auto;
@@ -740,7 +741,7 @@ margin-bottom: 5px;
   margin-top: -17px;
   font-size: 18px;
   border-radius: 50%;
-  z-index: 15
+  z-index: 20
 }
 
 .twitter-left-control {
@@ -892,7 +893,7 @@ margin-bottom: 5px;
 }
 .form-control {
   background-color: transparent;
-  border-color: rgba(255,255,255,.1);
+  border-color: rgba(255,255,255,.5);
   height: 50px;
   border-radius: 0;
   box-shadow: none;
@@ -911,6 +912,7 @@ textarea.form-control {
  padding-bottom:70px;
   font-weight: 700;
 font-size: 20px;
+text-align:center;
 }
 
 ul.address {
@@ -996,7 +998,7 @@ ul.address {
 #footer .social-icons ul li a.linkedin:hover {
   background-color: #036dc0;
 }
-#footer .social-icons ul li a.tumblr:hover {
+#footer .social-icons ul li a.skype:hover {
   background-color: #ff6b00;
 }
 
